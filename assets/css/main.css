@@ -2792,7 +2792,7 @@ input[type="button"]:disabled,
 }
 
 #main > section {
-  border-top: solid 2px #efefef;
+  /* border-top: solid 2px #efefef; */
   margin: 4em 0 0 0;
   padding: 4em 0 0 0;
 }
@@ -2804,13 +2804,19 @@ input[type="button"]:disabled,
 }
 
 #github {
-	margin-left: 180px;
+	margin-left: 25px;
 }
 
 .skills li {
 	list-style-position: inside;
 	list-style-type: disc;
 	float: left;
+}
+
+.skills-name {
+  font-size: 1.5em;
+  color: #787878;
+  margin-bottom: 10px;
 }
 
 
